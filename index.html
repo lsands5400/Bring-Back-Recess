@@ -13,12 +13,19 @@
 
         <!-- Tab links -->
         <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'About Us')">About Us</button>
-        <button class="tablinks" onclick="openCity(event, 'Menu')">Menu</button>
-        <button class="tablinks" onclick="openCity(event, 'Upcoming Events')">Upcoming Events</button>
-        <button class="tablinks" onclick="openCity(event, 'Past Events')">Past Events</button>
+        <button class="tablinks" onclick="openTab(event, 'About Us')" id="defaultOpen">About Us</button>
+        <button class="tablinks" onclick="openTab(event, 'Menu')">Menu</button>
+        <button class="tablinks" onclick="openTab(event, 'Upcoming Events')">Upcoming Events</button>
+        <button class="tablinks" onclick="openTab(event, 'Past Events')">Past Events</button>
         </div>
 
+        <!-- Set default tab -->
+        <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+
+        
         <!-- Tab content -->
         <!-- About -->
         <div id="About Us" class="tabcontent">
