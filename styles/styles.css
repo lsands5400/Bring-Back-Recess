@@ -40,6 +40,18 @@ img {
   margin: 0 auto;
 }
 
+/* header */
+.header{
+      background-color: #ffffff;
+      width: 100%;
+      min-height: 50px;
+      display: flex;
+      padding: 60px;
+      border: none;
+      position: fixed;
+      top:0;
+      left:0;
+      }
 
 /* Tab Styles */
 /* Style the tab */
