@@ -24,9 +24,9 @@ body {
   width: 600px;
   margin: 0 auto;
   background-color: #FF9500;
-  padding: 0 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   border: 5px solid black;
-  margin-top: 60px;
+  margin-top: 300px;
 }
 
 h1 {
@@ -47,11 +47,15 @@ img {
       width: 100%;
       min-height: 50px;
       display: flex;
-      padding: 60px;
       border: none;
       position: fixed;
       top:0;
       left:0;
+      justify-content: center; /* centers horizontally */
+      padding-top: 160px;   /* space inside the header box */
+      padding-bottom: 80px;
+      margin-top: 0;       /* space outside the header box */
+      margin-bottom: 0;
       }
 
 /* Tab Styles */
