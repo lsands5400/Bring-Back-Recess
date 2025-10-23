@@ -55,17 +55,23 @@ img {
 
 /* header */
 .header{
-      background-color: #ffffff;
-      width: 100vw;
+      /*background-color: #ffffff;
+      width: 100%;
       display: flex;
       border: none;
       justify-content: center; /* centers horizontally */
-      padding-top: var(--header-paddingT);   /* space inside the header box */
-      padding-bottom: var(--header-paddingB);
+      /*padding-top: var(--header-paddingT);   /* space inside the header box */
+      /*padding-bottom: var(--header-paddingB);
       height: var(--header-height);
       margin: 0;
       box-sizing: border-box;       /* include padding in height */
-      margin: 0 calc(50% - 50vw);
+      /*margin: 0 calc(50% - 50vw);*/
+
+      padding: 60px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+      font-size: 30px;
       }
 
 /* Add extra space between header and page content */
