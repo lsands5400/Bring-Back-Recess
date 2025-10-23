@@ -1,0 +1,5 @@
+Viewing Changes
+-- To observe changes to the look of the website without committing, 
+right-click index.html and click "Reveal in File Explorer", then 
+double-click the file to open it in Chrome. Changes can be viewed there
+(Thanks to Prof Melissa!)
