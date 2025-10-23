@@ -66,6 +66,7 @@ img {
       margin: 0;
       position: static;             /* not fixed/sticky */
       box-sizing: border-box;       /* include padding in height */
+      margin: 0 calc(50% - 50vw);
       }
 
 /* Add extra space between header and page content */
