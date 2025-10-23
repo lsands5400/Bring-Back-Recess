@@ -28,6 +28,7 @@ p, li {
 
 html {
   background-color: #f1eab7;
+  overflow-y: scroll;
 }
 
 body {
@@ -36,7 +37,7 @@ body {
   background-color: #FF9500;
   padding: 20px 20px 20px 20px;
   border: 5px solid black;
-  margin-top: calc(var(--header-paddingT) + var(--header-paddingB) 
+  padding-top: calc(var(--header-paddingT) + var(--header-paddingB) 
     + var(--header-height));
 }
 
@@ -56,19 +57,21 @@ img {
 .header{
       background-color: #ffffff;
       width: 100%;
-      min-height: 50px;
       display: flex;
       border: none;
-      position: fixed;
-      top:0;
-      left:0;
       justify-content: center; /* centers horizontally */
       padding-top: var(--header-paddingT);   /* space inside the header box */
       padding-bottom: var(--header-paddingB);
-      margin-top: 0;       /* space outside the header box */
-      margin-bottom: 0;
       height: var(--header-height);
+      margin: 0;
+      position: static;             /* not fixed/sticky */
+      box-sizing: border-box;       /* include padding in height */
       }
+
+/* Add extra space between header and page content */
+main {
+  padding-top: var(--header-height); /* pushes content below header */
+}
 
 /* Tab Styles */
 /* Style the tab */
