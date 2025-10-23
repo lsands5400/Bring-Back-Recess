@@ -33,12 +33,12 @@ html {
 
 .content {
   width: 600px;
-  margin: 20px auto;
+  margin: calc(var(--header-paddingT) + var(--header-paddingB) 
+    + var(--header-height)) auto;
   background-color: #FF9500;
   padding: 20px 20px 20px 20px;
   border: 5px solid black;
-  padding-top: calc(var(--header-paddingT) + var(--header-paddingB) 
-    + var(--header-height));
+  padding-top: 20px;
 }
 
 h1 {
