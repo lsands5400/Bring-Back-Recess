@@ -56,7 +56,7 @@ img {
 /* header */
 .header{
       background-color: #ffffff;
-      width: 100%;
+      width: 100vw;
       display: flex;
       border: none;
       justify-content: center; /* centers horizontally */
@@ -64,7 +64,6 @@ img {
       padding-bottom: var(--header-paddingB);
       height: var(--header-height);
       margin: 0;
-      position: static;             /* not fixed/sticky */
       box-sizing: border-box;       /* include padding in height */
       margin: 0 calc(50% - 50vw);
       }
