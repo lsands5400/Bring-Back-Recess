@@ -34,11 +34,9 @@ html {
 
 .content {
   width: 600px;
-  /*margin: calc(var(--header-paddingT) + var(--header-paddingB) 
-    + var(--header-height)) auto;*/
+  margin: calc(var(--header-paddingT) + var(--header-paddingB) 
+    + var(--header-height)) auto;
   background-color: #292727;
-  padding: 20px 20px 20px 20px;
-  border: 5px solid black;
   justify-content: center;
 }
 
@@ -47,6 +45,12 @@ h1 {
   padding: 20px 0;
   color: #DFB920;
   text-shadow: 3px 3px 1px black;
+}
+
+h3 {
+  margin: 0;
+  padding: 20px 0;
+  color: white;
 }
 
 img {
