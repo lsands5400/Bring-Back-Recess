@@ -23,11 +23,12 @@ p, li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
+  color: white;
 }
 
 
 html {
-  background-color: #f1eab7;
+  background-color: #A7E4A9;
   overflow-y: scroll;
 }
 
@@ -35,18 +36,16 @@ html {
   width: 600px;
   /*margin: calc(var(--header-paddingT) + var(--header-paddingB) 
     + var(--header-height)) auto;*/
-  background-color: #FF9500;
+  background-color: #292727;
   padding: 20px 20px 20px 20px;
   border: 5px solid black;
-  /*padding-top: 20px;*/
   justify-content: center;
-  margin: auto;
 }
 
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #00539F;
+  color: #DFB920;
   text-shadow: 3px 3px 1px black;
 }
 
@@ -71,7 +70,7 @@ img {
 
       padding: 60px;
       text-align: center;
-      background: #1abc9c;
+      background: #EEEC98;
       color: white;
       font-size: 30px;
       }
@@ -85,8 +84,8 @@ main {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #9D552B;
+  background-color: #CB9B80;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -107,13 +106,13 @@ main {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #9D552B;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #CB9B80;
   border-top: none;
 }
