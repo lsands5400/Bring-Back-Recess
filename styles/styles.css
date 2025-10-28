@@ -3,8 +3,8 @@
   --accent-color: #fdd835;
   --text-color: #333;
   --header-height: 120px;
-  --header-paddingT: 300px;
-  --header-paddingB: 80px;
+  --header-paddingT: 250px;
+  --header-paddingB: 150px;
   --font-stack: "Poppins", sans-serif;
 }
 
@@ -20,12 +20,12 @@ html {
 
 
 h1 {
-  font-size: 70px;
+  font-size: 100px;
   text-align: center;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -92,7 +92,8 @@ img {
       background: #EEEC98;
       color: white;
       font-size: 30px;
-      padding-top: var(--header-paddingT);  
+      padding-top: var(--header-paddingT);
+      padding-bottom: var(--header-paddingB);  
       }
 
 /* Add extra space between header and page content */
