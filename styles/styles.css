@@ -3,9 +3,14 @@
   --accent-color: #fdd835;
   --text-color: #333;
   --header-height: 120px;
-  --header-paddingT: 160px;
+  --header-paddingT: 300px;
   --header-paddingB: 80px;
   --font-stack: "Poppins", sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -15,7 +20,12 @@ html {
 
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
   text-align: center;
 }
 
@@ -34,8 +44,7 @@ html {
 
 .content {
   width: 600px;
-  margin: calc(var(--header-paddingT) + var(--header-paddingB) 
-    + var(--header-height)) auto;
+  margin: 100px auto;
   background-color: #292727;
   justify-content: center;
 }
@@ -44,7 +53,14 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #DFB920;
-  text-shadow: 3px 3px 1px black;
+  font-family: 'Londrina Sketch'
+}
+
+h2 {
+  margin: 0;
+  padding: 20px 0;
+  color: #DFB920;
+  font-family: 'Londrina Sketch'
 }
 
 h3 {
@@ -60,8 +76,7 @@ img {
 
 /* header */
 .header{
-      /*background-color: #ffffff;
-      width: 100%;
+      /*width: 100%;
       display: flex;
       border: none;
       justify-content: center; /* centers horizontally */
@@ -70,13 +85,14 @@ img {
       height: var(--header-height);
       margin: 0;
       box-sizing: border-box;       /* include padding in height */
-      /*margin: 0 calc(50% - 50vw);*/
-
+      margin: 0 calc(50% - 50vw);
+      margin-top: 0;
       padding: 60px;
       text-align: center;
       background: #EEEC98;
       color: white;
       font-size: 30px;
+      padding-top: var(--header-paddingT);  
       }
 
 /* Add extra space between header and page content */
