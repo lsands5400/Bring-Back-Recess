@@ -12,10 +12,30 @@
         <div class="header">
             <h1>Hopscotch</h1>
             <h2>We're bringing back recess</h2>
+            <button id="btnsignup">Sign up</button>
+
+            <!-- Sign Up Modal -->
+            <div id="signUpModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="signUpModal-content">
+                <span class="close">&times;</span>
+                <p style="color: black">Enter your email here to sign up for event alerts!</p>
+                <form>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            </div>
+
         </div>
 
         <!-- Centered Content Wrapper -->
         <div class="content">
+
+            <!-- <img>src="assets/images/flier103125.jpg"</img> -->
+
             <!-- Tab links -->
             <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'AboutUs')" id="defaultOpen">About Us</button>
@@ -27,12 +47,15 @@
             <!-- Tab content -->
             <!-- About -->
             <div id="AboutUs" class="tabcontent">
-            <h3>About Us</h3>
-            <p>
-                We've noticed a lack of connection amongst young adults and want to offer a way to meet new people. 
-                We are a popup lemonadestand that hosts recess events for adults. <br />
-                If you dominated in four square or just liked to read in the corner, join us for our events!
-            </p>
+                <h3>About Us</h3>
+                <p>
+                    We've noticed a lack of connection amongst young adults and want to offer a way to meet new people. 
+                    We are a popup lemonadestand that hosts recess events for adults. <br />
+                    If you dominated in four square or just liked to read in the corner, join us for our events! Follow 
+                    us on Instagram
+                    <a style="color:white" href="https://www.instagram.com/hopscotch.recess/">@hopscotch.recess</a>.
+                </p>
+                
             </div>
 
             <!-- Lemonade Menu-->
