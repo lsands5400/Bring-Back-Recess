@@ -13,3 +13,4 @@ Collecting form data
 ----PHP can add, delete, modify data in your database
 ----PHP can be used to control user-access
 ----PHP can encrypt data
+-- Or, use Node.js. Both are server side languages

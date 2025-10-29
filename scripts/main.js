@@ -50,4 +50,3 @@ function openTab(evt, tabName) {
 window.onload = () => {
   document.getElementById("defaultOpen").click();
 };
-
