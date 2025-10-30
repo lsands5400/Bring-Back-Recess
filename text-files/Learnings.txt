@@ -14,3 +14,7 @@ Collecting form data
 ----PHP can be used to control user-access
 ----PHP can encrypt data
 -- Or, use Node.js. Both are server side languages
+
+
+For next project:
+-- Step 1: Set up a linter

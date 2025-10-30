@@ -8,27 +8,40 @@
     </head>
 
     <body>
-        <!-- title / header-->
-        <div class="header">
-            <h1>Hopscotch</h1>
-            <h2>We're bringing back recess</h2>
-            <button id="btnsignup">Sign up</button>
+        <!-- navigation bar-->
+        <div id="navBar" class="ul"></div>
+            <div class="navBar">
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">Shop</a></li>
+                <li><button id="btnsignup">Sign up</button></li>
+            </div>
+        </div>
 
-            <!-- Sign Up Modal -->
-            <div id="signUpModal" class="modal">
+        <!-- Sign Up Modal -->
+        <div id="signUpModal" class="modal">
 
             <!-- Modal content -->
             <div class="signUpModal-content">
                 <span class="close">&times;</span>
-                <p style="color: black">Enter your email here to sign up for event alerts!</p>
+                <p style="color: black">Enter your email here to sign up for 
+                    event alerts!</p>
                 <form>
                     <input type="email" id="email" name="email">
                     <input type="submit" value="Submit">
                 </form>
             </div>
+        </div>
 
+        <!-- title / header-->
+        <div class="header">
+            <img src="assets/images/Header-left.png" height="600"></img>
+
+            <div>
+            <h1>Hopscotch</h1>
+            <h2>We're bringing back recess</h2>
             </div>
 
+            <img src="assets/images/Header-right.png" height="600"></img>
         </div>
 
         <!-- Centered Content Wrapper -->
