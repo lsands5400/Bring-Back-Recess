@@ -15,6 +15,9 @@ Collecting form data
 ----PHP can encrypt data
 -- Or, use Node.js. Both are server side languages
 
+Editing images
+-- Images don't have background-color or padding. It must be added to a div 
+around them
 
 For next project:
 -- Step 1: Set up a linter

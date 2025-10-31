@@ -74,7 +74,7 @@ html {
 }
 
 .content {
-  width: 600px;
+  width: 50%;
   margin: 100px auto;
   background-color: #292727;
   justify-content: center;
@@ -141,6 +141,7 @@ h3 {
 img {
   display: block;
   margin: 0 auto;
+  background: none;
 }
 
 /* header */
