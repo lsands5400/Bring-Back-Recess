@@ -1,8 +1,5 @@
 // Node.js Server Creation
 
-// Using CommonJS require (Node.js default)
-const http = require('http');
-
 // Import the HTTP module
 const http = require('http');
 
@@ -18,6 +15,7 @@ const server = http.createServer((req, res) => {
 // Define the port to listen on const PORT = 3000;
 
 // Start the server and listen on the specified port
+PORT = 80;
 server.listen(PORT, 'localhost', () => {
   console.log(`Server running at http://localhost:${PORT}/`);
 });
